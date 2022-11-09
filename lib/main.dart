@@ -18,7 +18,7 @@ class MenuApp extends StatelessWidget {
     // 3
     return MaterialApp(
       // 4
-      title: 'Recipe Calculator',
+      title: 'School Menu',
       // 5
       theme: theme.copyWith(
           colorScheme: theme.colorScheme.copyWith(
@@ -27,7 +27,7 @@ class MenuApp extends StatelessWidget {
           ),
       ),
       // 6
-      home: const MyHomePage(title: 'Recipe Calculator'),
+      home: const MyHomePage(title: 'School Breakfast Menu'),
     );
   }
 }
